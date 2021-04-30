@@ -8,7 +8,7 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**Hey,BOT_NAME ✨
+        f"""**Hey,{BOT_NAME} ✨
 I can play music in your group's voice call. Developed by [Agastya](https://t.me/smile_of_your_face).
 Add me to your group and play music freely!**
         """,
@@ -35,7 +35,7 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**✨ BOT_NAME ✨ is on fire 🔥 ✅**""",
+      await message.reply_text("""**✨{BOT_NAME} ✨ is on fire 🔥 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
