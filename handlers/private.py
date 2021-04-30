@@ -26,7 +26,7 @@ Add me to your group and play music freely!**
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😎 ADD ME TO YOUR GROUP 😎", url="https://t.me/alone_music_robot?startgroup=true"
+                        "😎 ADD ME TO YOUR GROUP 😎", url="https://t.me/nishu_voice_robot?startgroup=true"
                     )]
             ]
         ),
