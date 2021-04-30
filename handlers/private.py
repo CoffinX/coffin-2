@@ -35,12 +35,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**✨ 𝗔𝗡𝗦𝗛𝗜𝗞𝗔 ✨ is on fire 🔥 ✅**""",
+      await message.reply_text("""**✨✨ is on fire 🔥 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚈 𝚈𝙾𝚄𝚁 🤙🏻", url="https://t.me/Anshika_4")
+                        "MOI CREATOR 🤙🏻", url="https://t.me/smile_of_your_face")
                 ]
             ]
         )
