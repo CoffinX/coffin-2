@@ -107,7 +107,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Moi Op Wale Master",
-                        url="https://t.me/smile_of_your_face")
+                        url="https://t.me/grootmini")
                    
                 ]
             ]
