@@ -9,24 +9,24 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey,✨
-I can play music in your group's voice call. Developed by [Agastya](https://t.me/smile_of_your_face).
+I can play music in your group's voice call. Developed by @grootmini
 Add me to your group and play music freely!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "CREATOR", url="https://t.me/smile_of_your_face")
+                        "CREATOR", url="https://t.me/grootmini")
                   ],[
                     InlineKeyboardButton(
-                        "🔰 GROUP🔰", url="https://t.me/worldwidebesties"
+                        "🔰 GROUP🔰", url="https://t.me/"
                     ),
                     InlineKeyboardButton(
                         "🎛️ COMMANDS 🎛️", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😎 ADD ME TO YOUR GROUP 😎", url="https://t.me/nishu_voice_robot?startgroup=true"
+                        "😎 ADD ME TO YOUR GROUP 😎", url="https://t.me/Mini_musicRoBoT?startgroup=true"
                     )]
             ]
         ),
@@ -40,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "MOI CREATOR 🤙🏻", url="https://t.me/smile_of_your_face")
+                        "MOI CREATOR 🤙🏻", url="https://t.me/grootmini")
                 ]
             ]
         )
